@@ -1,3 +1,0 @@
-# GitHub requires one of these owners, not both, for a code-owner review.
-# A maintainer's PR needs the other maintainer; external PRs need both by policy.
-* @vwu996 @felixleung828
