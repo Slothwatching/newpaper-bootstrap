@@ -6,6 +6,6 @@
 - Commit and push the private intent records even when the code change is rejected or unfinished. Distinguish submitted PRs from changes approved and merged. The private log does not require peer approval.
 - When a decision changes, retain the original entry, mark it as superseded or cancelled, and link the replacement intent ID with the reason for the change.
 - External contributors without access to the private repository should explain their intent in the public PR, omitting confidential details. An internal maintainer records it in the private log. Never require an external contributor to obtain private access.
-- `vwu996` and `felixleung828` may commit directly to this repository. PRs are optional and do not require peer approval. Keep private intent details out of public PRs; reference only the intent ID where appropriate.
+- `vwu996` and `felixleung828` work on branches and merge into `main` through PRs. No peer approval is required. Do not push directly to `main`; wait for required CI checks once configured. Keep private intent details out of public PRs; reference only the intent ID where appropriate.
 - Git history records the implementation. Do not repeat code diffs in the intent log.
 - Never commit secrets, tokens, passwords, or customer data to either repository.
